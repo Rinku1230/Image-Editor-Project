@@ -1,32 +1,38 @@
-
-.button{
-  background: yellow;
-  height: 90px;
-  width:110px;
-  color: #000;
-  float: left;
-  margin: 20px;
-  font-size: 15px;
-  border-radius: 20px;
+.App {
+  text-align: center;
 }
-.ram{
-  margin-top: 139px;
-  font-size: 10px;
-  background-color: chartreuse;
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
-.rma{
-  box-shadow: 2px 2px 30px 2px gray;
-  margin-left: 20px;
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
-.rinku{
-  background-color: aqua;
-  margin-top: 50px;
-  margin-left: 20PX;
-  border-radius: 5px;
-} 
 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
 
+.App-link {
+  color: #61dafb;
+}
 
-
-
-
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
