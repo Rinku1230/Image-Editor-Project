@@ -46,13 +46,13 @@ function App() {
   }
 
 
-  // const ALLremoveSpace = () => {
-  //   setFirst(first.trim().split(/ +/).join(""))
-  // };
-
   const ALLremoveSpace = () => {
-    setFirst(first.trim().split(/+/).join(""))
-  }
+    setFirst(first.trim().split(/ +/).join(""))
+  };
+
+  // const ALLremoveSpace = () => {
+  //   setFirst(first.trim().split(/+/).join(""))
+  // }
 
   const removeSpace = () => {
     setFirst(first.trim().split(/ +/).join(" "))
