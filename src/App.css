@@ -1,0 +1,32 @@
+
+.button{
+  background: yellow;
+  height: 90px;
+  width:110px;
+  color: #000;
+  float: left;
+  margin: 20px;
+  font-size: 15px;
+  border-radius: 20px;
+}
+.ram{
+  margin-top: 139px;
+  font-size: 10px;
+  background-color: chartreuse;
+}
+.rma{
+  box-shadow: 2px 2px 30px 2px gray;
+  margin-left: 20px;
+}
+.rinku{
+  background-color: aqua;
+  margin-top: 50px;
+  margin-left: 20PX;
+  border-radius: 5px;
+} 
+
+
+
+
+
+
